@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yogesh.hemnani\\Documents\\Appointment Reminder\\Project\\DynamoDb Library\\DynamoDb.Library.csproj": {}
+    "C:\\Project\\DynamoDb Library\\DynamoDb.Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yogesh.hemnani\\Documents\\Appointment Reminder\\Project\\DynamoDb Library\\DynamoDb.Library.csproj": {
+    "C:\\Project\\DynamoDb Library\\DynamoDb.Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yogesh.hemnani\\Documents\\Appointment Reminder\\Project\\DynamoDb Library\\DynamoDb.Library.csproj",
+        "projectUniqueName": "C:\\Project\\DynamoDb Library\\DynamoDb.Library.csproj",
         "projectName": "DynamoDb.Library",
-        "projectPath": "C:\\Users\\yogesh.hemnani\\Documents\\Appointment Reminder\\Project\\DynamoDb Library\\DynamoDb.Library.csproj",
+        "projectPath": "C:\\Project\\DynamoDb Library\\DynamoDb.Library.csproj",
         "packagesPath": "C:\\Users\\yogesh.hemnani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yogesh.hemnani\\Documents\\Appointment Reminder\\Project\\DynamoDb Library\\obj\\",
+        "outputPath": "C:\\Project\\DynamoDb Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -3359,11 +3359,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yogesh.hemnani\\Documents\\Appointment Reminder\\Project\\Loader\\Loader.csproj",
+      "projectUniqueName": "C:\\Project\\Loader\\Loader.csproj",
       "projectName": "Loader",
-      "projectPath": "C:\\Users\\yogesh.hemnani\\Documents\\Appointment Reminder\\Project\\Loader\\Loader.csproj",
+      "projectPath": "C:\\Project\\Loader\\Loader.csproj",
       "packagesPath": "C:\\Users\\yogesh.hemnani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yogesh.hemnani\\Documents\\Appointment Reminder\\Project\\Loader\\obj\\",
+      "outputPath": "C:\\Project\\Loader\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
