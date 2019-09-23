@@ -1,0 +1,8 @@
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\AppointmentIdQueue\bin\Debug\netcoreapp2.1\AppointmentIdQueue.deps.json
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\AppointmentIdQueue\bin\Debug\netcoreapp2.1\AppointmentIdQueue.runtimeconfig.json
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\AppointmentIdQueue\bin\Debug\netcoreapp2.1\AppointmentIdQueue.runtimeconfig.dev.json
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\AppointmentIdQueue\bin\Debug\netcoreapp2.1\AppointmentIdQueue.dll
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\AppointmentIdQueue\obj\Debug\netcoreapp2.1\AppointmentIdQueue.csprojAssemblyReference.cache
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\AppointmentIdQueue\obj\Debug\netcoreapp2.1\AppointmentIdQueue.csproj.CoreCompileInputs.cache
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\AppointmentIdQueue\obj\Debug\netcoreapp2.1\AppointmentIdQueue.AssemblyInfoInputs.cache
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\AppointmentIdQueue\obj\Debug\netcoreapp2.1\AppointmentIdQueue.AssemblyInfo.cs

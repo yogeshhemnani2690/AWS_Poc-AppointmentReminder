@@ -1,0 +1,17 @@
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\bin\Debug\netcoreapp2.1\DynamoDb.deps.json
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\bin\Debug\netcoreapp2.1\DynamoDb.runtimeconfig.json
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\bin\Debug\netcoreapp2.1\DynamoDb.runtimeconfig.dev.json
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\bin\Debug\netcoreapp2.1\DynamoDb.dll
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\bin\Debug\netcoreapp2.1\DynamoDb.pdb
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\bin\Debug\netcoreapp2.1\DynamoDb.Library.dll
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\bin\Debug\netcoreapp2.1\DynamoDb.Library.pdb
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.csprojAssemblyReference.cache
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.csproj.CoreCompileInputs.cache
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.RazorAssemblyInfo.cache
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.RazorAssemblyInfo.cs
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.AssemblyInfoInputs.cache
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.AssemblyInfo.cs
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.RazorTargetAssemblyInfo.cache
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.csproj.CopyComplete
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.dll
+C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\DynamoDb.pdb
