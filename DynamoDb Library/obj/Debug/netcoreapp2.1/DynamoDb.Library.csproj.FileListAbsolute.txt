@@ -7,3 +7,12 @@ C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb Library\
 C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.dll
 C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.pdb
 C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.csprojAssemblyReference.cache
+C:\Project\DynamoDb Library\bin\Debug\netcoreapp2.1\DynamoDb.Library.deps.json
+C:\Project\DynamoDb Library\bin\Debug\netcoreapp2.1\DynamoDb.Library.dll
+C:\Project\DynamoDb Library\bin\Debug\netcoreapp2.1\DynamoDb.Library.pdb
+C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.csprojAssemblyReference.cache
+C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.csproj.CoreCompileInputs.cache
+C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.AssemblyInfoInputs.cache
+C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.AssemblyInfo.cs
+C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.dll
+C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.pdb

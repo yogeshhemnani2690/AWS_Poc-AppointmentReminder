@@ -15,3 +15,20 @@ C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debu
 C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.csproj.CopyComplete
 C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.dll
 C:\Users\yogesh.hemnani\Documents\Appointment Reminder\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.pdb
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\AppointmentReminder.deps.json
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\AppointmentReminder.runtimeconfig.json
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\AppointmentReminder.runtimeconfig.dev.json
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\AppointmentReminder.dll
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\AppointmentReminder.pdb
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\DynamoDb.Library.dll
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\DynamoDb.Library.pdb
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.csprojAssemblyReference.cache
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.csproj.CoreCompileInputs.cache
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.RazorAssemblyInfo.cache
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.RazorAssemblyInfo.cs
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.AssemblyInfoInputs.cache
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.AssemblyInfo.cs
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.RazorTargetAssemblyInfo.cache
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.csproj.CopyComplete
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.dll
+C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.pdb

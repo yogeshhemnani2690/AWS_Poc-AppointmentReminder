@@ -12,6 +12,7 @@ namespace AppointmentIdQueue
         {
             Console.WriteLine("Creating a new SQS...");
             IAmazonSQS sqs = new AmazonSQSClient(RegionEndpoint.APSouth1);
+
             var sqsRequest = new CreateQueueRequest()
             {
                 QueueName = "MailerQueue"
