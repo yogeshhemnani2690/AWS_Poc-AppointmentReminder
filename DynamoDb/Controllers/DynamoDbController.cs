@@ -36,14 +36,14 @@ namespace DynamoDb.Controllers
         }
 
 
-        //[Route("GetNextDayAppointmentIds")]
-        //public async Task<IActionResult> GetAppoitnmentIds()
-        //{
-        //    DateTime currentDate = DateTime.Now;
-        //    DateTime nextDateTime = currentDate.AddDays(1);
-        //    string nextDate = nextDateTime.ToString("dd/MM/yyyy");
-        //    var response= await _dynamoDb.GetNextDayAppointmentsAsync(nextDate);
-        //    return Ok(response);
-        //}
+        [Route("GetNextDayAppointmentIds")]
+        public async Task<IActionResult> GetAppoitnmentIds()
+        {
+            DateTime currentDate = DateTime.Now;
+            DateTime nextDateTime = currentDate.AddDays(1);
+            string nextDate = nextDateTime.ToString("dd/MM/yyyy");
+            var response = await _dynamoDb.GetNextDayAppointmentsAsync(nextDate);
+            return Ok(response);
+        }
     }
 }

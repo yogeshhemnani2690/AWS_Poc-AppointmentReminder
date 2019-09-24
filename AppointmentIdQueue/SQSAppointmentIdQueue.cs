@@ -7,7 +7,7 @@ using System.Text;
 
 namespace AppointmentIdQueue
 {
-    class SQSAppointmentIdQueue
+    public class SQSAppointmentIdQueue
     {
         IAmazonSQS sqs = new AmazonSQSClient(RegionEndpoint.APSouth1);
         string AppointmentIdQueueUrl;
@@ -15,13 +15,13 @@ namespace AppointmentIdQueue
 
 
 
-        public void SendAppointmentId()
+        public void SendAppointmentId(int appointmentId)
         {
             this.AppointmentIdQueueUrl = sqs.GetQueueUrlAsync("AppointmentIdQueue").Result.QueueUrl;
             var sendMessageRequest = new SendMessageRequest()
             {
                 QueueUrl = AppointmentIdQueueUrl,
-                MessageBody = Convert.ToString(nextDayAppointments.PocAppointmentId)
+                MessageBody = Convert.ToString(appointmentId)
             };
             sqs.SendMessageAsync(sendMessageRequest);
             Console.WriteLine("AppointmentId Sent in AppointmentIdQueue");

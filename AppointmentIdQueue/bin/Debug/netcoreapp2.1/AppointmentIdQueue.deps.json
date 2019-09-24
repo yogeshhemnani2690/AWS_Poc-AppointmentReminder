@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "0c50d9ce913201a0e3c52a4d485f4d7cf8d803bc"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "AppointmentIdQueue/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SQS": "3.3.102.9"
+        },
+        "runtime": {
+          "AppointmentIdQueue.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.103.41": {
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.103.41"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.3.102.9": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.103.41"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.102.9"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppointmentIdQueue/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.3.103.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tZBSBt+m8XEvVlY8AgiAhzYi3Wqn7Zpxqqm3ziDtuiupF53mvq0Dv68zQQ48Wi9ECXyiGe5ehLDBG+Djt7m3Pw==",
+      "path": "awssdk.core/3.3.103.41",
+      "hashPath": "awssdk.core.3.3.103.41.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.3.102.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z8ZHEuQHqRZ1G1YxJ9HtH7ICHT5C0pKvWuIPqUdnEaee/Ljx9ckcKan/XV80MV6X887VvuvYDE3Zd7UKG8klvQ==",
+      "path": "awssdk.sqs/3.3.102.9",
+      "hashPath": "awssdk.sqs.3.3.102.9.nupkg.sha512"
+    }
+  }
+}

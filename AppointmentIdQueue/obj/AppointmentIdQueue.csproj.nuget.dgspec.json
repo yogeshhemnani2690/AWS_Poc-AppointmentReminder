@@ -57,6 +57,11 @@
           "assetTargetFallback": true,
           "warn": true
         }
+      },
+      "runtimes": {
+        "rhel.7.2-x64": {
+          "#import": []
+        }
       }
     }
   }
