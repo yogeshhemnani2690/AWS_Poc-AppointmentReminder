@@ -31,6 +31,7 @@ namespace DynamoDb
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddMvc();
             services.AddDefaultAWSOptions(Configuration.GetAWSOptions());
             services.AddAWSService<IAmazonDynamoDB>();
@@ -42,7 +43,14 @@ namespace DynamoDb
             Environment.SetEnvironmentVariable("AWS_REGION", Configuration["AWS:Region"]);
 
             services.AddSingleton<IDynamoDb, DynamoDbServices>();
+            services.AddCors(options => options.AddPolicy("CORSPolicy", builder => 
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
             
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,7 +61,9 @@ namespace DynamoDb
                 app.UseDeveloperExceptionPage();
             }
             app.UseMvc();
-          
+            app.UseCors("CORSPolicy");
+
+            app.UseHttpsRedirection();
             app.UseMvc(routes =>
             {
                 routes

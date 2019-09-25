@@ -5,12 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DynamoDb_Library.Interfaces;
+using Microsoft.AspNetCore.Cors;
 
 namespace DynamoDb.Controllers
 {
     [Produces("application/json")]
     [Route("api/DynamoDb")]
-    
+    [ApiController]
+    [EnableCors("CORSPolicy")]
+
     public class DynamoDbController : Controller
     {
        private readonly IDynamoDb _dynamoDb;

@@ -11,9 +11,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace AppointmentReminder.Controllers
 {
     [Produces("application/json")]
-
     [Route("api/Loader")]
-    [ApiController]
+    //[ApiController]
     public class LambdaController : ControllerBase
     {
         readonly LamdaServices _lambdaServices;

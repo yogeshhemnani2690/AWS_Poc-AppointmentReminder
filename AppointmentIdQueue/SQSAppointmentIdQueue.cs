@@ -27,7 +27,7 @@ namespace AppointmentIdQueue
             Console.WriteLine("AppointmentId Sent in AppointmentIdQueue");
         }
 
-
+        //Todo
         public void ReceiveAppointmentId()
         {
             this.AppointmentIdQueueUrl = sqs.GetQueueUrlAsync("AppointmentIdQueue").Result.QueueUrl;
