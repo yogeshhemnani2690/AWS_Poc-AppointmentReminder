@@ -45,7 +45,14 @@ namespace LoaderLambda
             {
                 app.UseHsts();
             }
-
+            app.UseMvc(routes =>
+            {
+                routes
+                  //.MapRoute(name: "default", template: "{controller=Home}/{action=Index}/{id?}")
+                  //.MapRoute(name: "swagger_root", defaults:null, constraints:null, template: new RedirectResult("/swagger").Url)
+                  .MapRoute(name: "create", template: "{controller}/{action}")
+                  .MapRoute(name: "default", template: "{controller}/{action}/{id?}");
+            });
             app.UseHttpsRedirection();
             app.UseMvc();
         }

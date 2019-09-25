@@ -16,9 +16,10 @@ namespace AppointmentReminder.Services
         private readonly SQSAppointmentIdQueue _sqsService;
         private readonly DynamoDbServices _dynamoDbServices;
 
-        public LamdaServices(DynamoDbServices dynamoDbServices)
+        public LamdaServices(DynamoDbServices dynamoDbServices, SQSAppointmentIdQueue sqsService)
         {
             _dynamoDbServices = dynamoDbServices;
+            _sqsService = sqsService;
         }
 
         public Task<Appointments> GetNextDayAppointmentIds(string nextDate)
