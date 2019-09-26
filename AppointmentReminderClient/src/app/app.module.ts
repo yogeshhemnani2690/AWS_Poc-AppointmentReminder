@@ -5,14 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTableModule,MatGridListModule,MatButtonModule}from '@angular/material';
+import { MatSortModule,MatTooltipModule,MatTableModule,MatGridListModule,MatButtonModule}from '@angular/material';
 import { HttpClientModule } from "@angular/common/http"
 @NgModule({
   declarations: [
     AppComponent,
     AdminDashboardComponent
   ],
-  imports: [
+  imports: [MatTooltipModule,
+    MatSortModule,
     MatGridListModule,
     MatButtonModule,
     MatTableModule,
