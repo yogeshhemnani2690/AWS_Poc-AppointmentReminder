@@ -1,17 +1,15 @@
-﻿using Amazon.DynamoDBv2.Model;
-using AppointmentIdQueue;
+﻿using AppointmentIdQueue;
 using DynamoDb_Library.DynamoDb;
 using DynamoDb_Library.Models;
-using LoaderLambda.Services;
-using System;
+using LoaderLambda.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace AppointmentReminder.Services
 {
-   
-    public class LamdaServices : ILambdaService
+
+    public class LamdaServices : ILoaderLambda
     {
         private readonly SQSAppointmentIdQueue _sqsService;
         private readonly DynamoDbServices _dynamoDbServices;

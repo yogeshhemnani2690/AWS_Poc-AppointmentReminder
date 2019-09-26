@@ -16,5 +16,3 @@ C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.AssemblyInf
 C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.AssemblyInfo.cs
 C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.dll
 C:\Project\DynamoDb Library\obj\Debug\netcoreapp2.1\DynamoDb.Library.pdb
-C:\Project\DynamoDb Library\bin\Debug\netcoreapp2.1\DynamoDb.Library.runtimeconfig.json
-C:\Project\DynamoDb Library\bin\Debug\netcoreapp2.1\DynamoDb.Library.runtimeconfig.dev.json

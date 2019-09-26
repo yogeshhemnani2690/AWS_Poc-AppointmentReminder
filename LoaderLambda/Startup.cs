@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AppointmentReminder.Services;
-using LoaderLambda.Services;
+using DynamoDb_Library.DynamoDb;
+using DynamoDb_Library.Interfaces;
+using LoaderLambda.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -31,7 +33,15 @@ namespace LoaderLambda
 
             // Add S3 to the ASP.NET Core dependency injection framework.
             services.AddAWSService<Amazon.S3.IAmazonS3>();
-            services.AddSingleton<ILambdaService, LamdaServices >(); 
+            services.AddSingleton<ILoaderLambda, LamdaServices >();
+            services.AddSingleton<IDynamoDb, DynamoDbServices>();
+
+            services.AddCors(options => options.AddPolicy("CORSPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline
@@ -45,6 +55,7 @@ namespace LoaderLambda
             {
                 app.UseHsts();
             }
+            app.UseCors("CORSPolicy");
             app.UseMvc(routes =>
             {
                 routes

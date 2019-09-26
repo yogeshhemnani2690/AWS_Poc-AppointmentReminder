@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DynamoDb_Library.Interfaces;
 using Microsoft.AspNetCore.Cors;
+using AppointmentReminder.Controllers;
 
 namespace DynamoDb.Controllers
 {
@@ -16,9 +17,8 @@ namespace DynamoDb.Controllers
 
     public class DynamoDbController : Controller
     {
-       private readonly IDynamoDb _dynamoDb;
-
-        public DynamoDbController(IDynamoDb dynamoDb)
+        private readonly IDynamoDb _dynamoDb;
+        public DynamoDbController(IDynamoDb dynamoDb )
         {
             _dynamoDb = dynamoDb;
         }

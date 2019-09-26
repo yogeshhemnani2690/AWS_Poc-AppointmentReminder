@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using AppointmentReminder.Services;
 using DynamoDb_Library.Models;
+using LoaderLambda.Interfaces;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,12 +14,12 @@ namespace AppointmentReminder.Controllers
 {
     [Produces("application/json")]
     [Route("api/Loader")]
-    //[ApiController]
+    [EnableCors("CORSPolicy")]
     public class LambdaController : ControllerBase
     {
-        readonly LamdaServices _lambdaServices;
+        private ILoaderLambda _lambdaServices;
 
-        public LambdaController(LamdaServices lambdaServices)
+        public LambdaController(ILoaderLambda lambdaServices)
         {
             _lambdaServices = lambdaServices;
         }

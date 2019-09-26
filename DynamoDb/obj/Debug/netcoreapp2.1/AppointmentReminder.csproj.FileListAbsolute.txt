@@ -32,3 +32,7 @@ C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.RazorTargetAssem
 C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.csproj.CopyComplete
 C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.dll
 C:\Project\DynamoDb\obj\Debug\netcoreapp2.1\AppointmentReminder.pdb
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\AppointmentIdQueue.dll
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\LoaderLambda.dll
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\LoaderLambda.pdb
+C:\Project\DynamoDb\bin\Debug\netcoreapp2.1\AppointmentIdQueue.pdb

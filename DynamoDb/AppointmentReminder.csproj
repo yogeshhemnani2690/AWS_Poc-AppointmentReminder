@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DynamoDb Library\DynamoDb.Library.csproj" />
+    <ProjectReference Include="..\LoaderLambda\LoaderLambda.csproj" />
   </ItemGroup>
 
 </Project>
